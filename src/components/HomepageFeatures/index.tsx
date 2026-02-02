@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Cross-Platform Support',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Works seamlessly on both Windows 10/11 and macOS. Uses native system APIs
+        for optimal performance and reliability.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'No API Required',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Control Spotify directly without any external APIs, OAuth flows, or internet connection.
+        Everything works locally for maximum privacy and speed.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Simple Integration',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Install from VS Code Marketplace and start controlling Spotify immediately.
+        Sidebar view with play controls and track information.
       </>
     ),
   },

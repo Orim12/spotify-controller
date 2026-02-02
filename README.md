@@ -1,6 +1,24 @@
-# Website
+# Spotify Controller Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This documentation site is built using [Docusaurus](https://docusaurus.io/) and provides comprehensive documentation for the **Spotify Controller VS Code Extension**.
+
+## About Spotify Controller
+
+Control Spotify locally from VS Code without any external APIs or internet connection. Works on Windows and macOS using native system APIs.
+
+- **🎵 Playback Controls**: Play, pause, next, and previous track
+- **📱 Track Information**: Current song, artist, and album in sidebar
+- **💻 Cross-Platform**: Windows 10/11 and macOS support
+- **🔒 Privacy-First**: No Spotify Web API, OAuth, or internet required
+- **⚡ Instant Response**: Uses native system media transport controls
+
+## Links
+
+- **Extension**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=orim12.spotify-controller)
+- **Source Code**: [GitHub Repository](https://github.com/Orim12/spotify-extension)
+- **Documentation**: [Live Site](https://orim12.github.io/spotify-extension/)
+
+## Development
 
 ## Installation
 

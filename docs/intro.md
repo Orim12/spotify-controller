@@ -2,46 +2,64 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Getting Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Control **Spotify locally from VS Code** without any external APIs or internet connection.
 
-## Getting Started
+## What is Spotify Controller?
 
-Get started by **creating a new site**.
+Spotify Controller is a VS Code extension that lets you control your Spotify playback directly from Visual Studio Code. It works on both **Windows** and **macOS** using native system APIs.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Key Features
 
-### What you'll need
+- **🎵 Playback Controls**: Play, pause, next, and previous track controls
+- **📱 Track Information**: See current song, artist, and album in the sidebar
+- **💻 Cross-Platform**: Works on Windows 10/11 and macOS
+- **🔒 Privacy-First**: No Spotify Web API, no OAuth, no internet required
+- **⚡ Instant Response**: Uses native system media transport controls
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Quick Start
 
-## Generate a new site
+### Installation
 
-Generate a new Docusaurus site using the **classic template**.
+1. Open VS Code
+2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
+3. Search for "Spotify Controller"
+4. Click **Install**
 
-The classic template will automatically be added to your project after you run the command:
+Or [install directly from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=orim12.spotify-controller).
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Requirements
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+#### Windows
+- Windows 10/11
+- Spotify desktop app running
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+#### macOS  
+- macOS 10.12 or later
+- Spotify desktop app running
 
-## Start your site
+## Usage
 
-Run the development server:
+1. **Start Spotify**: Make sure the Spotify desktop app is running
+2. **Open Extension**: Click on the Spotify icon in the VS Code Activity Bar
+3. **Control Playback**: Use the play/pause, next, and previous buttons
+4. **View Track Info**: See current song information in the sidebar
 
-```bash
-cd my-website
-npm run start
-```
+The extension will automatically detect your current track and display controls in the sidebar view.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## How It Works
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+### Windows
+The extension uses a local .NET 6 helper that communicates with Windows' **System Media Transport Controls (SMTC)** to control Spotify and retrieve track information.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### macOS
+The extension uses embedded **AppleScript** commands to communicate directly with the Spotify application.
+
+Both implementations provide instant, local control without requiring any external services or internet connectivity.
+
+## Next Steps
+
+- Learn about all [Features](./tutorial-basics/features)
+- Explore [Installation Details](./tutorial-basics/installation) 
+- Check out [Troubleshooting](./tutorial-basics/troubleshooting) if you encounter issues

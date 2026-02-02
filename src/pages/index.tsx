@@ -21,7 +21,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Get Started - 2min ⏱️
+          </Link>
+          <Link
+            className="button button--primary button--lg margin-left--md"
+            href="https://marketplace.visualstudio.com/items?itemName=orim12.spotify-controller">
+            Install Extension 🎵
           </Link>
         </div>
       </div>
@@ -33,8 +38,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - VS Code Extension`}
+      description="Control Spotify locally from VS Code. No Spotify Web API, no OAuth, no internet required. Works on Windows and macOS.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
