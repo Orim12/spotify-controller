@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "description": "Documentation site for Spotify Controller VS Code Extension",
-  "homepage": "https://orim12.github.io/spotify-extension/",
+  "homepage": "https://orim12.github.io/spotify-controller/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Orim12/spotify-extension.git"
+    "url": "https://github.com/Orim12/spotify-controller.git"
   },
   "scripts": {
     "docusaurus": "docusaurus",

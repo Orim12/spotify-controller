@@ -100,5 +100,3 @@ This allows full control without touching the mouse!
 ## Next Steps
 
 - Learn about [Troubleshooting](./troubleshooting) common issues
-- Check out [Advanced Configuration](./configuration) options
-- Explore [Keyboard Shortcuts](./shortcuts) setup

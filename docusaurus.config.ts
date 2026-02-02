@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://orim12.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/spotify-extension/',
+  baseUrl: '/spotify-controller/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Orim12', // Usually your GitHub org/user name.
-  projectName: 'spotify-extension', // Usually your repo name.
+  projectName: 'spotify-controller', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -118,7 +118,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Orim12/spotify-extension/tree/master/docs/',
+            'https://github.com/Orim12/spotify-controller/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -129,7 +129,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Orim12/spotify-extension/tree/master/blog/',
+            'https://github.com/Orim12/spotify-controller/tree/main/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -168,7 +168,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/Orim12/spotify-extension',
+          href: 'https://github.com/Orim12/spotify-controller',
           label: 'GitHub',
           position: 'right',
         },
@@ -190,11 +190,11 @@ const config: Config = {
             },
             {
               label: 'Installation',
-              to: '/docs/installation',
+              to: '/docs/tutorial-basics/installation',
             },
             {
               label: 'Features',
-              to: '/docs/features',
+              to: '/docs/tutorial-basics/features',
             },
           ],
         },
@@ -207,7 +207,7 @@ const config: Config = {
             },
             {
               label: 'GitHub Releases',
-              href: 'https://github.com/Orim12/spotify-extension/releases',
+              href: 'https://github.com/Orim12/spotify-controller/releases',
             },
           ],
         },
@@ -220,11 +220,11 @@ const config: Config = {
             },
             {
               label: 'GitHub Repository',
-              href: 'https://github.com/Orim12/spotify-extension',
+              href: 'https://github.com/Orim12/spotify-controller',
             },
             {
               label: 'Issues',
-              href: 'https://github.com/Orim12/spotify-extension/issues',
+              href: 'https://github.com/Orim12/spotify-controller/issues',
             },
           ],
         },
