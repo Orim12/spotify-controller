@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Cross-Platform Support',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/spotify_cross_platform.svg').default,
     description: (
       <>
         Works seamlessly on both Windows 10/11 and macOS. Uses native system APIs
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'No API Required',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/spotify_no_api.svg').default,
     description: (
       <>
         Control Spotify directly without any external APIs, OAuth flows, or internet connection.
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Simple Integration',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/spotify_integration.svg').default,
     description: (
       <>
         Install from VS Code Marketplace and start controlling Spotify immediately.
