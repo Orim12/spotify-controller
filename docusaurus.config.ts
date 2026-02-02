@@ -168,7 +168,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/Orim12/spotify-controller',
+          href: 'https://github.com/Orim12/spotify-extension',
           label: 'GitHub',
           position: 'right',
         },
@@ -207,7 +207,7 @@ const config: Config = {
             },
             {
               label: 'GitHub Releases',
-              href: 'https://github.com/Orim12/spotify-controller/releases',
+              href: 'https://github.com/Orim12/spotify-extension/releases',
             },
           ],
         },
@@ -220,11 +220,11 @@ const config: Config = {
             },
             {
               label: 'GitHub Repository',
-              href: 'https://github.com/Orim12/spotify-controller',
+              href: 'https://github.com/Orim12/spotify-extension',
             },
             {
               label: 'Issues',
-              href: 'https://github.com/Orim12/spotify-controller/issues',
+              href: 'https://github.com/Orim12/spotify-extension/issues',
             },
           ],
         },
