@@ -118,7 +118,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Orim12/spotify-controller/tree/main/docs/',
+            'https://github.com/Orim12/spotify-controller/tree/main/',
         },
         blog: {
           showReadingTime: true,
